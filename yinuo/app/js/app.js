@@ -31,6 +31,7 @@ app.config(["$stateProvider","$urlRouterProvider",function($stateProvider,$urlRo
         name:"yinuo.info",
         url:"/info",
         templateUrl: 'html/info.html',
+        controller:'infoController'
     }).state({
         name:"yinuo.ally",
         url:"/ally",
