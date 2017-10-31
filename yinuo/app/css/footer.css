@@ -1,9 +1,14 @@
+
+.footer_left{
+    min-width: 468px;
+}
 .footer_panel{
     width: 85%;
     margin: 0 auto;
     height: 220px;
     margin-top: 90px;
     min-width: 1080px;
+    overflow: hidden;
 }
 .footer_panel_title{
     font-size: 16px;
@@ -28,7 +33,7 @@
 .QRcodeImg{
     width: 90px;
     height: 90px;
-    background: url("../img/qrcode_for_gh_fc2e6e3c42f5_1280.jpg") no-repeat;
+    /*background: url("../img/qrcode_for_gh_fc2e6e3c42f5_1280.jpg") no-repeat;*/
     background-size: 100% 100%;
     margin: 0 auto;
 }
@@ -37,7 +42,6 @@
     height: 100%;
 }
 .company_name{
-
     font-size: 16px;
 }
 .company_Ename{

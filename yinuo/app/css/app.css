@@ -1,6 +1,7 @@
-/* app css stylesheet */
-/* index-menus */
+/*   *   *    *   *   * index [start]*   *   *    *   *   */
+/*   menus  */
 .menus{
+  position:fixed;
   width:100%;
   height:60px;
   background-color:#333;
@@ -15,33 +16,29 @@
   font-family: '微软雅黑';
   color:blue;
 }
-.ding{
-  position:fixed;
-  top:2%;
-  right:2%;
-  width:200px;
-  height:200px;
-  background-color: #0d8ddb;
-}
 
-/* index-footer */
+/*   footer  */
 .footer{
   width:100%;
   height:400px;
   background-size:100%;
   background: #333333;
-  overflow: hidden;
+  overflow-x:auto ;
 }
-/* layout-base轮播 */
-.carousel_zone{
+/*   *   *    *   *   * index [end] *   *   *    *   *   */
+
+/*   *   *    *   *   * layout-base[start]轮播 *   *   *    *   *   */
+.carousel-zone{
   width:100%;
   height:400px;
   background-image:url('../img/carousel2.jpg');
   background-size:100%;
-
 }
-/* 产品服务 */
-.product_service_zone{
+/*   *   *    *   *   * layout-base[end]轮播 *   *   *    *   *   */
+
+/*   *   *    *   *   * 产品服务-产品优势【首页，产品服务】 [start]*   *   *    *   *   */
+/* 【首.产】产品服务区域 */
+.product-service-zone{
   width:100%;
   height:400px;
   background-image:url('../img/1.png');
@@ -82,111 +79,153 @@
   background-image:url('../img/home/4.jpg');
   background-size:100%;
 }
-/* 产品优势 */
-.product_advan_zone{
+
+/* 【首.产】产品优势区域 */
+.product-advan-zone{
   width:100%;
   height:400px;
   background-image:url('../img/2.png');
   background-size:100%;
 }
+/*   *   *    *   *   * 产品服务-产品优势【首页，产品服务】[end]*   *   *    *   *   */
 
-.solution_zone{
+/*   *   *    *   *   * 首页home [start]*   *   *    *   *   */
+/* 【首页】-解决方案区域 */
+.h-solution-zone{
   width:100%;
   height:400px;
   background-image:url('../img/carousel2.jpg');
   background-size:100%;
 }
-.industry_advan_zone{
+/* 【首页】-行业优势区域 */
+.h-industry-advan-zone{
   width:100%;
   height:400px;
   background-image:url('../img/carousel3.jpg');
   background-size:100%;
 }
-.partner_zone{
+/* 【首页】-合作伙伴区域 */
+.h-partner-zone{
   width:100%;
   height:400px;
   background-image:url('../img/carousel.jpg');
   background-size:100%;
 }
-.furniture_zone{
-  width:100%;
-  height:400px;
-  background-image:url('../img/carousel3.jpg');
-  background-size:100%;
-}
-.wisdom_zone{
-  width:100%;
-  height:400px;
-  background-image:url('../img/carousel2.jpg');
-  background-size:100%;
-}
+/*   *   *    *   *   * 首页home [end]*   *   *    *   *   */
 
-.delivery_zone{
+/*   *   *    *   *   * 产品服务 [start]*   *   *    *   *   */
+/* 【产品服务】-家具团购zone */
+.p-furniture-zone{
+  width:100%;
+  height:400px;
+  background-image:url('../img/carousel3.jpg');
+  background-size:100%;
+}
+/* 【产品服务】-智慧门店zone */
+.p-wisdom_zone{
+  width:100%;
+  height:400px;
+  background-image:url('../img/carousel2.jpg');
+  background-size:100%;
+}
+/*   *   *    *   *   * 产品服务 [end]*   *   *    *   *   */
+
+/*   *   *    *   *   * 解决方案 [start]*   *   *    *   *   */
+
+/* 【解决方案】-快递物流zone */
+.s-delivery-zone{
   width:100%;
   height:400px;
   background-image:url('../img/carousel.jpg');
   background-size:100%;
 }
-.airport_mgt_zone{
+/* 【解决方案】-机场管理 */
+.s-airport-mgt-zone{
   width:100%;
   height:400px;
   background-image:url('../img/carousel3.jpg');
   background-size:100%;
 }
-.railway_sys_zone{
+/* 【解决方案】-铁路系统 */
+.s-railway-sys-zone{
   width:100%;
   height:400px;
   background-image:url('../img/carousel2.jpg');
   background-size:100%;
 }
-.enterprise_news_zone{
+/*   *   *    *   *   * 解决方案 [end]*   *   *    *   *   */
+
+/*   *   *    *   *   * 新闻动态 [start]*   *   *    *   *   */
+/* 【新闻动态】-公司新闻 */
+/*.n-enterprise-news-zone{*/
+  /*width:100%;*/
+  /*height:400px;*/
+  /*background-image:url('../img/carousel3.jpg');*/
+  /*background-size:100%;*/
+/*}*/
+/*!* 【新闻动态】-行业新闻 *!*/
+/*.n-industry-news-zone{*/
+  /*width:100%;*/
+  /*height:400px;*/
+  /*background-image:url('../img/carousel2.jpg');*/
+  /*background-size:100%;*/
+/*}*/
+.block{
+  height:300px;
+
+  background: blue;
+
+  margin-bottom: 20px;
+}
+/*   *   *    *   *   * 新闻动态 [end]*   *   *    *   *   */
+
+/*   *   *    *   *   * 合作伙伴 [start]*   *   *    *   *   */
+/* 【合作伙伴】-合作伙伴 */
+.c-partner-zone{
   width:100%;
   height:400px;
   background-image:url('../img/carousel3.jpg');
   background-size:100%;
 }
-.industry_news_zone{
+/* 【合作伙伴】-营销网络 */
+.c-marketing-zone{
   width:100%;
   height:400px;
   background-image:url('../img/carousel2.jpg');
   background-size:100%;
 }
-.partner_zone{
+/*   *   *    *   *   * 合作伙伴 [end]*   *   *    *   *   */
+
+/*   *   *    *   *   * 关于我们 [start]*   *   *    *   *   */
+/* 【关于我们】-企业简介 */
+.a-introduction-zone{
   width:100%;
   height:400px;
   background-image:url('../img/carousel3.jpg');
   background-size:100%;
 }
-.marketing_zone{
+/* 【关于我们】-企业愿景 */
+.s-vision{
   width:100%;
   height:400px;
   background-image:url('../img/carousel2.jpg');
   background-size:100%;
 }
-.introduction_zone{
-  width:100%;
-  height:400px;
-  background-image:url('../img/carousel3.jpg');
-  background-size:100%;
-}
-.vision{
-  width:100%;
-  height:400px;
-  background-image:url('../img/carousel2.jpg');
-  background-size:100%;
-}
-.core_value_zone{
+/* 【关于我们】-企业核心价值 */
+.s-core-value-zone{
   width:100%;
   height:400px;
   background-image:url('../img/carousel.jpg');
   background-size:100%;
 }
-.contact_us_zone{
+/* 【关于我们】-联系我们 */
+.s-contact-us-zone{
   width:100%;
   height:400px;
   background-image:url('../img/carousel3.jpg');
   background-size:100%;
 }
+/*   *   *    *   *   * 关于我们 [end]*   *   *    *   *   */
 
 
 
