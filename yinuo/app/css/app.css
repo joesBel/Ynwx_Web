@@ -170,6 +170,16 @@
   background-image:url('../img/carousel2.jpg');
   background-size:100%;
 }
+.block {
+
+  height:300px;
+
+  background: blue;
+
+  margin-bottom: 20px;
+
+}
+
 /*   *   *    *   *   * 新闻动态 [end]*   *   *    *   *   */
 
 /*   *   *    *   *   * 合作伙伴 [start]*   *   *    *   *   */
