@@ -159,44 +159,153 @@
 /* 【新闻动态】-公司新闻 */
 .n-enterprise-news-zone{
   width:100%;
-  height:400px;
-  background-image:url('../img/carousel3.jpg');
+}
+.common_title-box{
+  width: 85%;
+  min-width: 1080px;
+  margin: 50px auto;
+  height: 50px;
+  line-height: 50px;
+}
+.common_title-name{
+  border-left: 4px solid #0d8ddb;
+  padding-left: 8px;
+  color: #333333;
+  font-size: 18px;
+}
+.common_title-name-e{
+  color: #333333;
+  font-size: 12px;
+  word-spacing: 5px;
+}
+.n-enterprise-news-box{
+  width: 100%;
+  height: 400px;
+  background-image:url('../img/n-1.png');
   background-size:100%;
 }
+
+
 /* 【新闻动态】-行业新闻 */
+.info{
+  width: 100%;
+}
 .n-industry-news-zone{
   width:100%;
-  height:400px;
-  background-image:url('../img/carousel2.jpg');
-  background-size:100%;
 }
-.block {
-
-  height:300px;
-
-  background: blue;
-
-  margin-bottom: 20px;
-
+.n-industry-news-box{
+  width: 85%;
+  min-width: 1080px;
+  margin: 20px auto;
+  height: auto;
 }
+.n-industry-news{
+  width: 100%;
+  margin-bottom: 50px;
+  box-shadow:  0 2px 15px 1px black;
+  -webkit-box-shadow: 0 2px 15px 1px black;
+  -ms-box-shadow: 0 2px 15px 1px black;
+  -moz-box-shadow: 0 2px 15px 1px black ;
+  -o-box-shadow: 0 2px 15px 1px black;
+}
+.noB-n-industry-news{
+  width: 100%;
+  margin-bottom: 50px;
+  border: 1px solid #999999;
+}
+.n-panel-heading{
+  padding: 5px 30px;
+  background: #757575;
+  color: whitesmoke;
+}
+.n-panel-body{
+  padding: 15px 30px;
+  color: #333333;
+}
+/*.n-industry-news:hover{*/
+  /*box-shadow:  0 2px 15px 1px black;*/
+  /*-webkit-box-shadow: 0 2px 15px 1px black;*/
+  /*-ms-box-shadow: 0 2px 15px 1px black;*/
+  /*-moz-box-shadow: 0 2px 15px 1px black ;*/
+  /*-o-box-shadow: 0 2px 15px 1px black;*/
+/*}*/
 
 /*   *   *    *   *   * 新闻动态 [end]*   *   *    *   *   */
 
 /*   *   *    *   *   * 合作伙伴 [start]*   *   *    *   *   */
 /* 【合作伙伴】-合作伙伴 */
 .c-partner-zone{
-  width:100%;
-  height:400px;
-  background-image:url('../img/carousel3.jpg');
-  background-size:100%;
+  width:85%;
+  height: auto;
+  margin: 0 auto;
+  min-width: 1080px;
+
+}
+.c-partne{
+  height: 180px;
+  border-right: 1px solid #999999;
+  margin-bottom: 50px;
+  background: url("../img/c-ally.png");
+  background-size: 100% 100%;
 }
 /* 【合作伙伴】-营销网络 */
-.c-marketing-zone{
+.c-businessmap-zone{
   width:100%;
-  height:400px;
-  background-image:url('../img/carousel2.jpg');
-  background-size:100%;
+  height:500px;
+  background-image:url('../img/c-businessmap.png');
+  background-size:100% 100%;
+  margin-bottom: 100px;
+  min-width: 1080px;
 }
+.c-business-map{
+  width: 85%  ;
+  height: auto;
+  margin: 0 auto;
+  min-width: 1080px;
+}
+.c-business-list-box{
+  height: 400px;
+}
+.c-business-list{
+  width: 100%;
+  height: 100px;
+  /*background: red;*/
+  margin-bottom: 30px;
+}
+.c-business-list-icon{
+  display: inline-block;
+  width: 100px;
+  height: 100%;
+
+  margin-right: 15px;
+}
+.c-business-list-icon1{
+  background: url("../img/c-icon3.png");
+  background-size: 100% 100%;
+}
+.c-business-list-icon2{
+  background: url("../img/c-icon2.png");
+  background-size: 100% 100%;
+}
+.c-business-list-icon3{
+  background: url("../img/c-icon1.png");
+  background-size: 100% 100%;
+}
+.c-business-list-msg{
+  width: 300px;
+  height: 100%;
+  color: #f0f0f0;
+}
+.c-business-list-msg-title{
+  height: 50px;
+  line-height: 50px;
+}
+.c-business-list-msg-main{
+  width: 100%;
+  height: 50px;
+  overflow: hidden;
+}
+
 /*   *   *    *   *   * 合作伙伴 [end]*   *   *    *   *   */
 
 /*   *   *    *   *   * 关于我们 [start]*   *   *    *   *   */
