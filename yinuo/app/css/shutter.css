@@ -9,7 +9,7 @@ ul, li { list-style: none; }
 .shutter {
   overflow: hidden;
   width:100% !important;
-  height:400px !important;
+  height:460px !important;
   position: relative;
   margin-top: 60px;
 }

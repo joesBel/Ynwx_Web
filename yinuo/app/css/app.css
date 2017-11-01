@@ -32,7 +32,7 @@
 /*   *   *    *   *   * layout-base[start]轮播 *   *   *    *   *   */
 .carousel-zone{
   width:100%;
-  height:400px;
+  height:460px;
   background-image:url('../img/carousel2.jpg');
   background-size:100%;
 }
@@ -43,7 +43,7 @@
 .product-service-zone{
   width:100%;
   height:400px;
-  background-image:url('../img/1.png');
+  /*background-image:url('../img/1.png');*/
   background-size:100%;
 }
 .product-list{
@@ -66,27 +66,27 @@
 }
 
 .product-list-one{
-  background-image:url('../img/home/1.jpg');
+  background-image:url('../img/home/h-1.png');
   background-size:100%;
 }
 .product-list-two{
-  background-image:url('../img/home/2.jpg');
+  background-image:url('../img/home/h-2.png');
   background-size:100%;
 }
 .product-list-three{
-  background-image:url('../img/home/3.jpg');
+  background-image:url('../img/home/h-3.png');
   background-size:100%;
 }
 .product-list-four{
-  background-image:url('../img/home/4.jpg');
+  background-image:url('../img/home/h-4.png');
   background-size:100%;
 }
 
 /* 【首.产】产品优势区域 */
 .product-advan-zone{
   width:100%;
-  height:400px;
-  background-image:url('../img/2.png');
+  height:500px;
+  background-image:url('../img/home/h-5.png');
   background-size:100%;
 }
 /*   *   *    *   *   * 产品服务-产品优势【首页，产品服务】[end]*   *   *    *   *   */
@@ -95,22 +95,30 @@
 /* 【首页】-解决方案区域 */
 .h-solution-zone{
   width:100%;
-  height:400px;
-  background-image:url('../img/carousel2.jpg');
+  height:555px;
+  background-image:url('../img/home/h-6.png');
   background-size:100%;
 }
 /* 【首页】-行业优势区域 */
 .h-industry-advan-zone{
   width:100%;
-  height:400px;
-  background-image:url('../img/carousel3.jpg');
+  height:500px;
+  background-image:url('../img/home/h-7.png');
+  background-size:100%;
+}
+
+/* 【首页】-新闻动态区域 */
+.h-news-zone{
+  width:100%;
+  height:600px;
+  background-image:url('../img/home/h-8.png');
   background-size:100%;
 }
 /* 【首页】-合作伙伴区域 */
 .h-partner-zone{
   width:100%;
-  height:400px;
-  background-image:url('../img/carousel.jpg');
+  height:470px;
+  background-image:url('../img/home/h-partner.png');
   background-size:100%;
 }
 /*   *   *    *   *   * 首页home [end]*   *   *    *   *   */
